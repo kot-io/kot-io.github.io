@@ -1,0 +1,320 @@
+
+*{
+	margin:0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+.line{
+	width: 100px;
+    height: 3px;
+    background: #fff;
+    margin: 0 auto;
+    margin-bottom: 85px;
+    margin-top: 1%;
+}
+.header_style{
+
+text-align: center;
+padding-top: 200px;
+padding-bottom: 410px;
+height: 50%;
+background-color: #000;
+
+
+}
+.header_style h1{ 
+
+color: white;
+font-family: 'Oswald', sans-serif;
+padding-bottom: 2%;
+
+}
+.header_style p{
+font-family: 'Oswald', sans-serif;
+color: #fff;
+margin-bottom: 5%;
+}
+
+header{
+background-color: #000;
+display: flex;
+}
+header h2{
+font-family: 'Raleway', sans-serif;
+color: #fff;
+font-size: 35px;
+margin-left: 3%;
+padding-top: 3%;
+}
+.header_style a{ 
+
+color: white;
+font-family: 'Oswald', sans-serif;
+text-decoration: none;
+border: 2px solid #fff;
+text-transform: uppercase;
+padding: 10px 20px;
+transition: 0.2s;
+
+}
+.header_style a:hover{ 
+
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 20px;
+padding-bottom: 20px; 
+background: white;
+color: black;
+}
+.more{
+
+display: flex;
+float: right;
+margin-top: 3%;
+margin-right: 3%;
+}
+
+.more h1{
+	
+font-family: 'Raleway', sans-serif;
+color: #000;
+
+}
+.photo{
+ border-radius: 50%;
+ background-color: #000;
+ width: 100px;
+ height: 100px;
+
+}
+.cards{
+	display: flex;
+	padding-top: 15%;
+}
+.card{
+	margin: 0 28%;
+	text-align: center;
+}
+.card h1{
+	padding-top: 5%;
+	font-family: 'Oswald', sans-serif;
+    padding-bottom: 5%;
+}
+.card a{
+color: black;
+font-family: 'Oswald', sans-serif;
+text-decoration: none;
+border: 2px solid #000;
+text-transform: uppercase;
+padding: 10px 20px;
+transition: 0.2s;
+}
+.card a:hover{
+
+background: black;
+color: white;
+}
+.card p{
+	font-family: 'Oswald', sans-serif;
+ 	padding-bottom: 15%;
+
+
+}
+.photo:hover{
+
+	background-color: lightgrey;
+	transition:0.2s;
+}
+
+.wr{
+	margin: 0 auto;
+	width: 75%;
+
+}
+.more-main{
+padding: 75px 0 75px 0;
+
+
+}
+.design{
+	display: flex;
+}
+.design-main{
+
+padding: 100px 0 100px 0;
+background-color: #000;
+
+}
+.design-main h1{
+font-family: 'Raleway', sans-serif;
+color: #fff;
+margin-top: 3%;
+margin-left: 3%;
+
+}
+.design-main p{
+font-family: 'Oswald', sans-serif;
+color: #fff;
+margin-top: 5%;
+
+}
+
+.content{
+	text-align: center;
+}
+.content p{
+	padding-bottom: 2%;
+}
+.content a{
+color: white;
+font-family: 'Oswald', sans-serif;
+text-decoration: none;
+border: 2px solid #fff;
+text-transform: uppercase;
+padding: 10px 20px;
+transition: 0.2s;
+}
+.content a:hover{
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 20px;
+padding-bottom: 20px; 
+background: white;
+color: black;
+}
+.future-main h1{
+text-align: center;
+font-family: 'Raleway', sans-serif;
+
+
+}
+.future-main p{
+text-align: center;
+font-family: 'Raleway', sans-serif;
+margin-bottom: 3%;
+
+}
+.future-main {
+text-align: center;
+padding: 100px 0 100px 0;
+
+}
+.future-main a{
+color: #000;
+font-family: 'Oswald', sans-serif;
+text-decoration: none;
+border: 2px solid #000;
+text-transform: uppercase;
+padding: 10px 20px;
+transition: 0.2s;
+}
+.future-main a:hover{
+color: #000;
+font-family: 'Oswald', sans-serif;
+text-decoration: none;
+border: 2px solid #fff;
+text-transform: uppercase;
+padding: 10px 20px;
+transition: 0.2s;
+}
+.projects{
+	padding: 100px 0 100px 0;
+	background:#000;
+	text-align: center;
+
+}
+.projects h2{
+color: #fff;
+font-family: 'Oswald', sans-serif;
+font-size: 110%;
+padding-top: 5%;
+}
+.projects_ab h1{
+font-family: 'Raleway', sans-serif;
+color: #fff;
+}
+.projects p{
+font-family: 'Raleway', sans-serif;
+color: #fff;
+
+}
+.projects a{
+color: white;
+font-family: 'Oswald', sans-serif;
+text-decoration: none;
+border: 2px solid #fff;
+text-transform: uppercase;
+padding: 10px 20px;
+transition: 0.2s;
+}
+.projects a:hover{
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 20px;
+padding-bottom: 20px; 
+background: white;
+color: black;
+}
+.last-p p{
+	margin-bottom: 5%;
+}
+.thx {
+	text-align: center;
+}
+
+.thx h1{
+	color: #000;
+	font-family: 'Oswald', sans-serif;
+}
+.thx h5{
+	color: #000;
+	font-family: 'Oswald', sans-serif;
+}
+.thx p{
+	font-family: 'Raleway', sans-serif;
+}
+
+
+@media screen and (max-width: 1105px){
+*{
+	margin:0;
+	padding: 0;
+}
+.cards{
+	justify-content: center;
+}
+.more{
+float: none;
+}
+
+.more{
+	justify-content: center;
+}
+.header_style h1{ 
+	padding-bottom: 5%;
+}
+
+
+header h2{
+
+}
+.design{
+	justify-content: center;
+}
+.more-main h1{
+font-size: 100%;
+}
+.design-main h1{
+font-size: 100%;
+}
+.design-main h1{
+text-align: center;
+}
+.design-main p{
+font-size: 75%;
+margin-bottom: 5%;
+}
+.last-p p{
+	margin-bottom: 10%;
+}
+}
